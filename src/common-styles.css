@@ -1,0 +1,10 @@
+/* common-styles.css */
+
+.container {
+    max-width: 1440px; /* Добавяне на максимална ширина */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 58px 5%; /* Промяна на padding */
+}
+
+/* Други общи стилове */

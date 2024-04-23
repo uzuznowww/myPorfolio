@@ -1,0 +1,32 @@
+@import "../../vars.css";
+.projectSection {
+    background-color: rgb(249, 249, 249); /* Фонов цвят */
+    border-radius: 100px; /* Закръгленост на ръбовете */
+    padding: 73px; /* Подравняване на съдържанието */
+    margin-top: 150px; /* Отстояние от горната част на страницата */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    width: 100%;
+    max-width: 400px; /* Максимална ширина на изображението */
+    height: auto;
+    margin-bottom: 30px; /* Разстояние под изображението */
+}
+
+.githubLink {
+    text-decoration: none;
+    background-color: var(--color-primary); /* Цвят на фона на линка */
+    color: var(--color-text); /* Цвят на текста */
+    border-radius: 100px; /* Закръгленост на ръбовете */
+    font-size: 20px; /* Размер на шрифта */
+    font-weight: bold; /* Дебелина на шрифта */
+    padding: 15px 30px; /* Подравняване на линка */
+}

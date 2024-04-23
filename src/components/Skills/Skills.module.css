@@ -1,0 +1,30 @@
+@import "../../vars.css";
+.container {
+    position: relative;
+    background-color: rgb(249, 249, 249);
+    border-radius: 100px;
+    padding: 20px;
+    margin-top: 150px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; /* Разстояние между редовете */
+}
+
+.icon {
+    width: 100px; /* Ширина на иконките */
+    height: auto;
+    margin: 0 20px; /* По подразбиране - разумно разстояние между иконките */
+}
+
+/* Медийни заявки */
+@media screen and (max-width: 768px) {
+    .icon {
+        margin: 0 2px; /* По-малко разстояние между иконките при по-малки екрани */
+    }
+}

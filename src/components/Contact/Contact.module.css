@@ -1,0 +1,23 @@
+@import "../../vars.css";
+.container {
+    color: var(--color-text);
+    margin-top: 120px;
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    padding: 58px 10%;
+    gap: 10px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 50px; /* Размер на иконите */
+    height: auto;
+    margin-right: 0 20px; /* Разстояние между иконите */
+}
